@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MGQParadoxUtilities": {
+      "commandName": "Project",
+      "commandLineArgs": " -v -o"
+    }
+  }
+}
