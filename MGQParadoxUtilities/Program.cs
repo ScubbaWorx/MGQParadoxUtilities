@@ -5,11 +5,11 @@ using MGQParadoxUtilities;
 
 const string CommonEventDirParam = "-CommonEventsDir:";
 const string CommonEventDirParamShort = "-c:";
-const string HLibraryParam = "-HLibraryParam:";
+const string HLibraryParam = "-HLibraryFile:";
 const string HLibraryParamShort = "-h:";
 const string PicturesDirParam = "-PicturesDir:";
 
-const string Usage = $"Usage: MGQParadoxUtilities.exe {CommonEventDirParam}|{CommonEventDirParamShort}< CommonEvents directory path> {HLibraryParam}|{HLibraryParamShort}< Full path to the '202 - Library(H).rb' file> -verbose|-v -overwrite|-o \n" +
+const string Usage = $"Usage: MGQParadoxUtilities.exe {CommonEventDirParam}|{CommonEventDirParamShort}<CommonEvents directory path> {HLibraryParam}|{HLibraryParamShort}<Full path to the '202 - Library(H).rb' file> -verbose|-v -overwrite|-o \n" +
     "Command line app that will take the existing temptation or seduction CommonEvent2xxx files and copy and reformat them to CommonEvent9XXX files in the same CommonEvent directory and add them to the H scene gallery so they can be viewed anytime.\n" +
     "-verbose will print additional diagnotic messages, -overwrite will enable overriting existing CommonEvent9XXX files (if this tool has been previously run), -skipHLibrary will skip updating the '202 - Library(H).rb' file";
 

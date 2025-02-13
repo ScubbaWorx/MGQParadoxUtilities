@@ -445,6 +445,10 @@ namespace MGQParadoxUtilities
 
         public NextPictureData GetNextImageName(int lastShowPictureIndex, string[] lines)
         {
+            // This feature is abandoned and not well tested.
+            // It ended up that there were way too many cases where the next numerical sequence picture was unrelated to the previous one.
+            // While it's a shame to leave some pictures relevant to the scene unused, this feature is way too buggy at the moment.
+
             StringBuilder stringBuilder = new StringBuilder();
             try
             {
